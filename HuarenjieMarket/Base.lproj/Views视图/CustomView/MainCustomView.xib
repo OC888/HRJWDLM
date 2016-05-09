@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="MainCustomView">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="EnZ-vL-snT">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="测试1.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="aL0-OU-fU9">
+                            <rect key="frame" x="26" y="443" width="121" height="122"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="测试3.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="rJn-wF-6Fr">
+                            <rect key="frame" x="309" y="443" width="121" height="122"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="测试4.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Mvt-Zh-QUa">
+                            <rect key="frame" x="454" y="449" width="121" height="122"/>
+                        </imageView>
+                        <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yJk-hy-TCi">
+                            <rect key="frame" x="0.0" y="0.0" width="600" height="418"/>
+                            <color key="backgroundColor" red="0.85876572132110596" green="0.96197015047073364" blue="0.87011593580245972" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </view>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="测试5.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="TWp-C3-ctn">
+                            <rect key="frame" x="167" y="443" width="121" height="122"/>
+                        </imageView>
+                    </subviews>
+                </scrollView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="EnZ-vL-snT" secondAttribute="bottom" id="7xg-gl-zE6"/>
+                <constraint firstItem="EnZ-vL-snT" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="96i-si-4QS"/>
+                <constraint firstAttribute="trailing" secondItem="EnZ-vL-snT" secondAttribute="trailing" id="Cd2-Pa-Mdm"/>
+                <constraint firstItem="EnZ-vL-snT" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="PeD-ag-P2O"/>
+            </constraints>
+            <point key="canvasLocation" x="510" y="339"/>
+        </view>
+        <viewController id="NcY-eJ-ts9">
+            <layoutGuides>
+                <viewControllerLayoutGuide type="top" id="obc-zh-jmg"/>
+                <viewControllerLayoutGuide type="bottom" id="NvX-oy-Dha"/>
+            </layoutGuides>
+            <view key="view" contentMode="scaleToFill" id="QeE-6n-97F">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="JPV-3H-FQl">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="244"/>
+                        <color key="backgroundColor" red="1" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qYh-9S-qd4">
+                        <rect key="frame" x="120" y="350" width="134" height="227"/>
+                        <color key="backgroundColor" red="0.0" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            </view>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+            <point key="canvasLocation" x="1019.5" y="248.5"/>
+        </viewController>
+        <viewController id="heh-Al-iea">
+            <layoutGuides>
+                <viewControllerLayoutGuide type="top" id="pYE-Kq-MyU"/>
+                <viewControllerLayoutGuide type="bottom" id="Boc-dI-bxv"/>
+            </layoutGuides>
+            <view key="view" contentMode="scaleToFill" id="jWE-ZT-iSo">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            </view>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+            <point key="canvasLocation" x="1510.5" y="224.5"/>
+        </viewController>
+    </objects>
+    <resources>
+        <image name="测试1.jpg" width="57" height="57"/>
+        <image name="测试3.jpg" width="220" height="220"/>
+        <image name="测试4.jpg" width="220" height="220"/>
+        <image name="测试5.jpg" width="220" height="220"/>
+    </resources>
+</document>

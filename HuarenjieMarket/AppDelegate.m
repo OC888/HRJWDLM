@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import "MainTableViewControllerNew.h"
 @interface AppDelegate ()
 
 @end
@@ -16,8 +16,10 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
-    return YES;
+    MainTableViewControllerNew *mainV = [[MainTableViewControllerNew alloc] init];
+    
+  //n22  [mainV startLocation];
+     return YES;
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {

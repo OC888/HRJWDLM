@@ -1,0 +1,21 @@
+dependencies: \
+  /Users/apple/Desktop/HuarenjieMarket/HuarenjieMarket/Base.lproj/Controller控制器/商城/ShopTableViewTwo/ShopTableViewControllerTow.m \
+  /Users/apple/Desktop/HuarenjieMarket/HuarenjieMarket/Base.lproj/Controller控制器/商城/ShopTableViewTwo/ShopTableViewControllerTow.h \
+  /Users/apple/Desktop/HuarenjieMarket/HuarenjieMarket/Base.lproj/Venders第三方/SDCycleScrollView/SDCycleScrollView.h \
+  /Users/apple/Desktop/HuarenjieMarket/HuarenjieMarket/Base.lproj/Macros宏/General.h \
+  /Users/apple/Desktop/HuarenjieMarket/HuarenjieMarket/Base.lproj/Controller控制器/商城/ShopTableViewTwo/ShopTableViewCell.h \
+  /Users/apple/Desktop/HuarenjieMarket/HuarenjieMarket/Base.lproj/Controller控制器/商城/ShopTableViewTwo/ScrollTableViewCell.h \
+  /Users/apple/Desktop/HuarenjieMarket/HuarenjieMarket/Base.lproj/Venders第三方/网络请求/AFNetworking/AFNetworking/AFHTTPRequestOperationManager.h \
+  /Users/apple/Desktop/HuarenjieMarket/HuarenjieMarket/Base.lproj/Venders第三方/网络请求/AFNetworking/AFNetworking/AFHTTPRequestOperation.h \
+  /Users/apple/Desktop/HuarenjieMarket/HuarenjieMarket/Base.lproj/Venders第三方/网络请求/AFNetworking/AFNetworking/AFURLConnectionOperation.h \
+  /Users/apple/Desktop/HuarenjieMarket/HuarenjieMarket/Base.lproj/Venders第三方/网络请求/AFNetworking/AFNetworking/AFURLRequestSerialization.h \
+  /Users/apple/Desktop/HuarenjieMarket/HuarenjieMarket/Base.lproj/Venders第三方/网络请求/AFNetworking/AFNetworking/AFURLResponseSerialization.h \
+  /Users/apple/Desktop/HuarenjieMarket/HuarenjieMarket/Base.lproj/Venders第三方/网络请求/AFNetworking/AFNetworking/AFSecurityPolicy.h \
+  /Users/apple/Desktop/HuarenjieMarket/HuarenjieMarket/Base.lproj/Venders第三方/网络请求/AFNetworking/AFNetworking/AFNetworkReachabilityManager.h \
+  /Users/apple/Desktop/HuarenjieMarket/HuarenjieMarket/Base.lproj/Controller控制器/商城/ShopViewController/goodModel.h \
+  /Users/apple/Desktop/HuarenjieMarket/HuarenjieMarket/Base.lproj/Venders第三方/网络请求/SDWebImage/SDWebImage/UIImageView+WebCache.h \
+  /Users/apple/Desktop/HuarenjieMarket/HuarenjieMarket/Base.lproj/Venders第三方/网络请求/SDWebImage/SDWebImage/SDWebImageCompat.h \
+  /Users/apple/Desktop/HuarenjieMarket/HuarenjieMarket/Base.lproj/Venders第三方/网络请求/SDWebImage/SDWebImage/SDWebImageManager.h \
+  /Users/apple/Desktop/HuarenjieMarket/HuarenjieMarket/Base.lproj/Venders第三方/网络请求/SDWebImage/SDWebImage/SDWebImageOperation.h \
+  /Users/apple/Desktop/HuarenjieMarket/HuarenjieMarket/Base.lproj/Venders第三方/网络请求/SDWebImage/SDWebImage/SDWebImageDownloader.h \
+  /Users/apple/Desktop/HuarenjieMarket/HuarenjieMarket/Base.lproj/Venders第三方/网络请求/SDWebImage/SDWebImage/SDImageCache.h
