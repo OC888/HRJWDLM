@@ -211,7 +211,7 @@ static NSString * const reuseIdentifier = @"AllinceCell";
 
 //设置分区页眉大小
 - (CGSize)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout *)collectionViewLayout referenceSizeForHeaderInSection:(NSInteger)section {
-    return  CGSizeMake(WIDTH, 150 + WIDTH / 5 + 30);
+    return  CGSizeMake(WIDTH, 150 + WIDTH / 5 * 1.25);
 }
 
 

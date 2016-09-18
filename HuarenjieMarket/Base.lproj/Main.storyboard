@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="MBn-Dg-N48">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="MBn-Dg-N48">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
     </dependencies>
@@ -1297,7 +1297,7 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="W6a-1f-LZn">
                                 <rect key="frame" x="0.0" y="368" width="375" height="250"/>
                                 <subviews>
-                                    <button opaque="NO" tag="1001" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tWD-Lc-ayu">
+                                    <button opaque="NO" tag="1001" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tWD-Lc-ayu">
                                         <rect key="frame" x="0.0" y="-32" width="32" height="32"/>
                                         <state key="normal" backgroundImage="edit">
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -1460,6 +1460,7 @@
                                     <constraint firstItem="ePb-eV-Twg" firstAttribute="width" secondItem="V2j-P9-w4C" secondAttribute="width" id="6nb-vb-z6J"/>
                                     <constraint firstItem="CPY-0R-bqo" firstAttribute="width" secondItem="V2j-P9-w4C" secondAttribute="width" id="8HL-ph-dzl"/>
                                     <constraint firstItem="V2j-P9-w4C" firstAttribute="leading" secondItem="W6a-1f-LZn" secondAttribute="leading" id="97Q-hD-LmI"/>
+                                    <constraint firstItem="tWD-Lc-ayu" firstAttribute="leading" secondItem="V2j-P9-w4C" secondAttribute="leading" id="Ah5-72-JtU"/>
                                     <constraint firstItem="CPY-0R-bqo" firstAttribute="top" secondItem="4w8-Oc-nfo" secondAttribute="bottom" id="BMA-z3-tcA"/>
                                     <constraint firstAttribute="bottom" secondItem="DHT-GQ-dM6" secondAttribute="bottom" id="BbY-Xt-Joa"/>
                                     <constraint firstAttribute="trailing" secondItem="CPY-0R-bqo" secondAttribute="trailing" id="Csl-sa-EC7"/>

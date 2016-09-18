@@ -7,6 +7,7 @@
 //
 //#import <MobileCoreServices/MobileCoreServices.h>
 //#import <AVFoundation/AVFoundation.h>
+#import "MapViewController.h"
 #import "CleanViewController.h"
 #import "AboutUsViewController.h"
 #import "TixianWEBViewController.h"
@@ -64,7 +65,7 @@
     _datasource = [NSMutableArray arrayWithCapacity:0];
     _datasourceTwo = [NSMutableArray arrayWithCapacity:0];
     
-    [_datasource addObjectsFromArray:[NSArray arrayWithObjects:@"我的店铺", @"话费充值",@"提现申请",@"我的订单",@"地址管理",@"意见反馈",@"关于我们",@"其他设置",nil]];
+    [_datasource addObjectsFromArray:[NSArray arrayWithObjects:@"我的店铺", @"话费充值",@"提现申请",@"我的订单",@"提交位置",@"意见反馈",@"关于我们",@"其他设置",nil]];
     [_datasourceTwo addObjectsFromArray:[NSArray arrayWithObjects:@"dianpu_01.png",@"phone_01.png",@"tixian_01.png",@"xunni_01.png",@"dizhi_01.png",@"fenxiang_01.png",@"help_01.png",@"shezhi_01.png",nil]];
     
 }
@@ -179,21 +180,22 @@
         [_baseAlert show];
     }
     if (indexPath.row == 4) {
-        _baseAlert2 = nil;
-        _baseAlert2 = [[UIAlertView alloc]
-                      
-                      initWithTitle:@"地址" message:@"对不起，您没有对应的订单以及地址"
-                      
-                      delegate:self cancelButtonTitle:nil
-                      
-                      otherButtonTitles: nil];
-        
-        [NSTimer scheduledTimerWithTimeInterval:1.0f target:self selector: @selector(performDismiss2:)
-         
-                                       userInfo:nil repeats:NO];
-        
-        [_baseAlert2 show];
-
+//        _baseAlert2 = nil;
+//        _baseAlert2 = [[UIAlertView alloc]
+//                      
+//                      initWithTitle:@"地址" message:@"对不起，您没有对应的订单以及地址"
+//                      
+//                      delegate:self cancelButtonTitle:nil
+//                      
+//                      otherButtonTitles: nil];
+//        
+//        [NSTimer scheduledTimerWithTimeInterval:1.0f target:self selector: @selector(performDismiss2:)
+//         
+//                                       userInfo:nil repeats:NO];
+//        
+//        [_baseAlert2 show];
+        MapViewController *mapV = [[MapViewController alloc] init];
+        [self.navigationController presentViewController:mapV animated:YES completion:nil];
     }
     if (indexPath.row == 5) {
         AdviseViewController *av = [self.storyboard instantiateViewControllerWithIdentifier:@"advise"];

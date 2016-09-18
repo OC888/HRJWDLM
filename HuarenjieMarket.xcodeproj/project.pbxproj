@@ -101,6 +101,16 @@
 		1812B6BF1CF30F3200E29AC3 /* home2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1812B6BA1CF30F3200E29AC3 /* home2.png */; };
 		1812B6C01CF30F3200E29AC3 /* home3.png in Resources */ = {isa = PBXBuildFile; fileRef = 1812B6BB1CF30F3200E29AC3 /* home3.png */; };
 		1812B6C11CF30F3200E29AC3 /* home4.png in Resources */ = {isa = PBXBuildFile; fileRef = 1812B6BC1CF30F3200E29AC3 /* home4.png */; };
+		18275E0C1D8E953400E5BC08 /* 一元夺宝啊.png in Resources */ = {isa = PBXBuildFile; fileRef = 18275E021D8E953400E5BC08 /* 一元夺宝啊.png */; };
+		18275E0D1D8E953400E5BC08 /* 万店联盟.png in Resources */ = {isa = PBXBuildFile; fileRef = 18275E031D8E953400E5BC08 /* 万店联盟.png */; };
+		18275E0E1D8E953400E5BC08 /* 外卖.png in Resources */ = {isa = PBXBuildFile; fileRef = 18275E041D8E953400E5BC08 /* 外卖.png */; };
+		18275E0F1D8E953400E5BC08 /* 娱乐.png in Resources */ = {isa = PBXBuildFile; fileRef = 18275E051D8E953400E5BC08 /* 娱乐.png */; };
+		18275E101D8E953400E5BC08 /* 服装.png in Resources */ = {isa = PBXBuildFile; fileRef = 18275E061D8E953400E5BC08 /* 服装.png */; };
+		18275E111D8E953400E5BC08 /* 消息.png in Resources */ = {isa = PBXBuildFile; fileRef = 18275E071D8E953400E5BC08 /* 消息.png */; };
+		18275E121D8E953400E5BC08 /* 生活服务.png in Resources */ = {isa = PBXBuildFile; fileRef = 18275E081D8E953400E5BC08 /* 生活服务.png */; };
+		18275E131D8E953400E5BC08 /* 美食.png in Resources */ = {isa = PBXBuildFile; fileRef = 18275E091D8E953400E5BC08 /* 美食.png */; };
+		18275E141D8E953400E5BC08 /* 视频.png in Resources */ = {isa = PBXBuildFile; fileRef = 18275E0A1D8E953400E5BC08 /* 视频.png */; };
+		18275E151D8E953400E5BC08 /* 酒店.png in Resources */ = {isa = PBXBuildFile; fileRef = 18275E0B1D8E953400E5BC08 /* 酒店.png */; };
 		1829FCAE1CF3E23C00875B42 /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1829FC971CF3E23C00875B42 /* SearchViewController.m */; };
 		1829FCAF1CF3E23C00875B42 /* SearchWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1829FC991CF3E23C00875B42 /* SearchWebViewController.m */; };
 		1829FCB41CF3E23C00875B42 /* ShopCollectionReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1829FCA51CF3E23C00875B42 /* ShopCollectionReusableView.m */; };
@@ -274,11 +284,6 @@
 		18AE1D811CDC9032009FD659 /* 排序2.png in Resources */ = {isa = PBXBuildFile; fileRef = 18AE1D741CDC9032009FD659 /* 排序2.png */; };
 		18AE1D821CDC9032009FD659 /* 排序4.png in Resources */ = {isa = PBXBuildFile; fileRef = 18AE1D751CDC9032009FD659 /* 排序4.png */; };
 		18AE1D831CDC9032009FD659 /* 排序3.png in Resources */ = {isa = PBXBuildFile; fileRef = 18AE1D761CDC9032009FD659 /* 排序3.png */; };
-		18B0FC061D8BDC0700682277 /* 外卖啊.png in Resources */ = {isa = PBXBuildFile; fileRef = 18B0FC011D8BDC0700682277 /* 外卖啊.png */; };
-		18B0FC071D8BDC0700682277 /* 娱乐啊.png in Resources */ = {isa = PBXBuildFile; fileRef = 18B0FC021D8BDC0700682277 /* 娱乐啊.png */; };
-		18B0FC081D8BDC0700682277 /* 服装2.png in Resources */ = {isa = PBXBuildFile; fileRef = 18B0FC031D8BDC0700682277 /* 服装2.png */; };
-		18B0FC091D8BDC0700682277 /* 美食啊2.png in Resources */ = {isa = PBXBuildFile; fileRef = 18B0FC041D8BDC0700682277 /* 美食啊2.png */; };
-		18B0FC0A1D8BDC0700682277 /* 酒店啊.png in Resources */ = {isa = PBXBuildFile; fileRef = 18B0FC051D8BDC0700682277 /* 酒店啊.png */; };
 		6C8552572FB455895C72102E /* libPods-HuarenjieMarket.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E8ADE3E727BA7CC57366B63 /* libPods-HuarenjieMarket.a */; };
 		6F109D201D0BC039001409A8 /* usernamePic.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F109D1E1D0BC039001409A8 /* usernamePic.png */; };
 		6F109D211D0BC039001409A8 /* passwordPic_.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F109D1F1D0BC039001409A8 /* passwordPic_.png */; };
@@ -820,6 +825,8 @@
 		E93E5A631D67E98700B16FF8 /* aappleicon.png in Resources */ = {isa = PBXBuildFile; fileRef = E93E5A621D67E98700B16FF8 /* aappleicon.png */; };
 		E93E5A661D67E9DB00B16FF8 /* AboutUsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E93E5A651D67E9DB00B16FF8 /* AboutUsViewController.m */; };
 		E93E5A691D67ECBD00B16FF8 /* AdviseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E93E5A681D67ECBD00B16FF8 /* AdviseViewController.m */; };
+		E93EFAB31D8E8FDC00BE9C68 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E93EFAB21D8E8FDC00BE9C68 /* MapViewController.m */; };
+		E93EFAB51D8E900A00BE9C68 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E93EFAB41D8E900A00BE9C68 /* CoreLocation.framework */; };
 		E960AF991D6BE29D002D5C99 /* ShareSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E960AF851D6BE29D002D5C99 /* ShareSDK.framework */; };
 		E960AF9A1D6BE29D002D5C99 /* ShareSDKExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E960AF881D6BE29D002D5C99 /* ShareSDKExtension.framework */; };
 		E960AF9B1D6BE29D002D5C99 /* ShareSDKUI.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E960AF891D6BE29D002D5C99 /* ShareSDKUI.bundle */; };
@@ -1227,6 +1234,16 @@
 		1812B6BA1CF30F3200E29AC3 /* home2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home2.png; sourceTree = "<group>"; };
 		1812B6BB1CF30F3200E29AC3 /* home3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home3.png; sourceTree = "<group>"; };
 		1812B6BC1CF30F3200E29AC3 /* home4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home4.png; sourceTree = "<group>"; };
+		18275E021D8E953400E5BC08 /* 一元夺宝啊.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "一元夺宝啊.png"; sourceTree = "<group>"; };
+		18275E031D8E953400E5BC08 /* 万店联盟.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "万店联盟.png"; sourceTree = "<group>"; };
+		18275E041D8E953400E5BC08 /* 外卖.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "外卖.png"; sourceTree = "<group>"; };
+		18275E051D8E953400E5BC08 /* 娱乐.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "娱乐.png"; sourceTree = "<group>"; };
+		18275E061D8E953400E5BC08 /* 服装.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "服装.png"; sourceTree = "<group>"; };
+		18275E071D8E953400E5BC08 /* 消息.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "消息.png"; sourceTree = "<group>"; };
+		18275E081D8E953400E5BC08 /* 生活服务.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "生活服务.png"; sourceTree = "<group>"; };
+		18275E091D8E953400E5BC08 /* 美食.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "美食.png"; sourceTree = "<group>"; };
+		18275E0A1D8E953400E5BC08 /* 视频.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "视频.png"; sourceTree = "<group>"; };
+		18275E0B1D8E953400E5BC08 /* 酒店.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "酒店.png"; sourceTree = "<group>"; };
 		1829FC961CF3E23C00875B42 /* SearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
 		1829FC971CF3E23C00875B42 /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
 		1829FC981CF3E23C00875B42 /* SearchWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchWebViewController.h; sourceTree = "<group>"; };
@@ -1476,11 +1493,6 @@
 		18AE1D751CDC9032009FD659 /* 排序4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "排序4.png"; path = "../../排序4.png"; sourceTree = "<group>"; };
 		18AE1D761CDC9032009FD659 /* 排序3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "排序3.png"; path = "../../排序3.png"; sourceTree = "<group>"; };
 		18AE1DA11CDC90EC009FD659 /* General.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = General.h; sourceTree = "<group>"; };
-		18B0FC011D8BDC0700682277 /* 外卖啊.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "外卖啊.png"; sourceTree = "<group>"; };
-		18B0FC021D8BDC0700682277 /* 娱乐啊.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "娱乐啊.png"; sourceTree = "<group>"; };
-		18B0FC031D8BDC0700682277 /* 服装2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "服装2.png"; sourceTree = "<group>"; };
-		18B0FC041D8BDC0700682277 /* 美食啊2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "美食啊2.png"; sourceTree = "<group>"; };
-		18B0FC051D8BDC0700682277 /* 酒店啊.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "酒店啊.png"; sourceTree = "<group>"; };
 		5B9D81101E6E1C92FC434FCF /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		6F109D1E1D0BC039001409A8 /* usernamePic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = usernamePic.png; path = ../../usernamePic.png; sourceTree = "<group>"; };
 		6F109D1F1D0BC039001409A8 /* passwordPic_.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = passwordPic_.png; path = ../../passwordPic_.png; sourceTree = "<group>"; };
@@ -2208,6 +2220,9 @@
 		E93E5A651D67E9DB00B16FF8 /* AboutUsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutUsViewController.m; sourceTree = "<group>"; };
 		E93E5A671D67ECBD00B16FF8 /* AdviseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdviseViewController.h; sourceTree = "<group>"; };
 		E93E5A681D67ECBD00B16FF8 /* AdviseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdviseViewController.m; sourceTree = "<group>"; };
+		E93EFAB11D8E8FDC00BE9C68 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		E93EFAB21D8E8FDC00BE9C68 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		E93EFAB41D8E900A00BE9C68 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		E960AF851D6BE29D002D5C99 /* ShareSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ShareSDK.framework; sourceTree = "<group>"; };
 		E960AF881D6BE29D002D5C99 /* ShareSDKExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ShareSDKExtension.framework; sourceTree = "<group>"; };
 		E960AF891D6BE29D002D5C99 /* ShareSDKUI.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ShareSDKUI.bundle; sourceTree = "<group>"; };
@@ -2298,6 +2313,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E93EFAB51D8E900A00BE9C68 /* CoreLocation.framework in Frameworks */,
 				003E37E81D8793A900CF209E /* libstdc++.6.0.9.tbd in Frameworks */,
 				003E37E61D87939400CF209E /* libresolv.tbd in Frameworks */,
 				003E37E41D87937A00CF209E /* libxml2.tbd in Frameworks */,
@@ -3088,6 +3104,23 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		18275E011D8E953400E5BC08 /* 万店联盟图标 */ = {
+			isa = PBXGroup;
+			children = (
+				18275E021D8E953400E5BC08 /* 一元夺宝啊.png */,
+				18275E031D8E953400E5BC08 /* 万店联盟.png */,
+				18275E041D8E953400E5BC08 /* 外卖.png */,
+				18275E051D8E953400E5BC08 /* 娱乐.png */,
+				18275E061D8E953400E5BC08 /* 服装.png */,
+				18275E071D8E953400E5BC08 /* 消息.png */,
+				18275E081D8E953400E5BC08 /* 生活服务.png */,
+				18275E091D8E953400E5BC08 /* 美食.png */,
+				18275E0A1D8E953400E5BC08 /* 视频.png */,
+				18275E0B1D8E953400E5BC08 /* 酒店.png */,
+			);
+			path = "万店联盟图标";
+			sourceTree = "<group>";
+		};
 		1829FC951CF3E23C00875B42 /* SearchViewConteoller */ = {
 			isa = PBXGroup;
 			children = (
@@ -3338,6 +3371,8 @@
 				E974C1841D6B01350099A198 /* TixianWEBViewController.m */,
 				E93335A01D6D37C60012204E /* CleanViewController.h */,
 				E93335A11D6D37C60012204E /* CleanViewController.m */,
+				E93EFAB11D8E8FDC00BE9C68 /* MapViewController.h */,
+				E93EFAB21D8E8FDC00BE9C68 /* MapViewController.m */,
 			);
 			path = "个人中心";
 			sourceTree = "<group>";
@@ -3442,7 +3477,7 @@
 		183F14F91CDC75E800569EE1 /* Resource资源 */ = {
 			isa = PBXGroup;
 			children = (
-				18B0FC001D8BDC0700682277 /* 万店联盟页图标 */,
+				18275E011D8E953400E5BC08 /* 万店联盟图标 */,
 				E97338591D6456F500AEFE5A /* 个人中心图标 */,
 				6F6A405B1D112DB400134A4D /* 生活服务 */,
 				6F3EEEF31D0D73A3006B37FE /* 通话界面图片 */,
@@ -3786,18 +3821,6 @@
 				18AE1D041CDC8CE6009FD659 /* MJRefreshStateHeader.m */,
 			);
 			path = Header;
-			sourceTree = "<group>";
-		};
-		18B0FC001D8BDC0700682277 /* 万店联盟页图标 */ = {
-			isa = PBXGroup;
-			children = (
-				18B0FC011D8BDC0700682277 /* 外卖啊.png */,
-				18B0FC021D8BDC0700682277 /* 娱乐啊.png */,
-				18B0FC031D8BDC0700682277 /* 服装2.png */,
-				18B0FC041D8BDC0700682277 /* 美食啊2.png */,
-				18B0FC051D8BDC0700682277 /* 酒店啊.png */,
-			);
-			path = "万店联盟页图标";
 			sourceTree = "<group>";
 		};
 		18B0FC0B1D8BF7A100682277 /* Controlller */ = {
@@ -4742,6 +4765,7 @@
 		A77194A2FD14542BC2F4A072 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E93EFAB41D8E900A00BE9C68 /* CoreLocation.framework */,
 				003E37E71D8793A900CF209E /* libstdc++.6.0.9.tbd */,
 				003E37E51D87939400CF209E /* libresolv.tbd */,
 				003E37E31D87937A00CF209E /* libxml2.tbd */,
@@ -4932,12 +4956,15 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 183F14E11CDC757900569EE1 /* Build configuration list for PBXNativeTarget "HuarenjieMarket" */;
 			buildPhases = (
+				E2D50D08275FDECEBD1155E9 /* 📦 Check Pods Manifest.lock */,
 				3833FE7084ED654FC486A890 /* [CP] Check Pods Manifest.lock */,
 				183F14BB1CDC757900569EE1 /* Sources */,
 				183F14BC1CDC757900569EE1 /* Frameworks */,
 				183F14BD1CDC757900569EE1 /* Resources */,
 				E3D44CD4531C97C7FBCBC9D8 /* [CP] Embed Pods Frameworks */,
 				DC4291CC5596A3BD2F2AFB6D /* [CP] Copy Pods Resources */,
+				947532FB47FBC106A36358F8 /* 📦 Embed Pods Frameworks */,
+				A6E57FBA916342C37AF7AD53 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -5114,7 +5141,6 @@
 				6F8FC1191CDD89DF0038382C /* lv5.jpg in Resources */,
 				6F3987551D1A2E740005AADC /* aa.jpg in Resources */,
 				18AE1D801CDC9032009FD659 /* 排序1.png in Resources */,
-				18B0FC081D8BDC0700682277 /* 服装2.png in Resources */,
 				6F3987881D1A2E740005AADC /* Second.storyboard in Resources */,
 				6F3988451D1A2FE00005AADC /* record_focus_normal.png in Resources */,
 				6F6A42C51D11301800134A4D /* CarS1R4TableViewCell.xib in Resources */,
@@ -5183,7 +5209,6 @@
 				6F3988501D1A2FE00005AADC /* record_icon_hook_normal_bg@2x.png in Resources */,
 				6F6A43641D11301800134A4D /* TableViewController.xib in Resources */,
 				6F6A41021D112E1400134A4D /* lvyou-01.png in Resources */,
-				18B0FC091D8BDC0700682277 /* 美食啊2.png in Resources */,
 				6F6A42BF1D11301800134A4D /* CarS1R1TableViewCell.xib in Resources */,
 				6F6A434B1D11301800134A4D /* SailHouseViewController.xib in Resources */,
 				E991D5D31D701D7A00894E0E /* WePayLogo.png in Resources */,
@@ -5195,11 +5220,13 @@
 				E973387A1D64600400AEFE5A /* tixian_01.png in Resources */,
 				183F15531CDC75E800569EE1 /* 测试4.jpg in Resources */,
 				6F6A413C1D112E1400134A4D /* widget_check_s.png in Resources */,
+				18275E121D8E953400E5BC08 /* 生活服务.png in Resources */,
 				6F3988171D1A2FE00005AADC /* close@3x.png in Resources */,
 				183F15501CDC75E800569EE1 /* 测试1.jpg in Resources */,
 				6F6A41031D112E1400134A4D /* n.png in Resources */,
 				18AE1D7A1CDC9032009FD659 /* 55.pic_hd.jpg in Resources */,
 				6F3988231D1A2FE00005AADC /* play@3x.png in Resources */,
+				18275E141D8E953400E5BC08 /* 视频.png in Resources */,
 				6F6A41261D112E1400134A4D /* xin-01.png in Resources */,
 				6F6A430C1D11301800134A4D /* NearbyViewController.xib in Resources */,
 				182F9C1D1CFD43A30008E5E8 /* four.png in Resources */,
@@ -5212,6 +5239,7 @@
 				00851C301D86C07C0043511A /* 120x120.png in Resources */,
 				6F3988161D1A2FE00005AADC /* close@2x.png in Resources */,
 				6F6A42B91D11301800134A4D /* CarListViewController.xib in Resources */,
+				18275E0E1D8E953400E5BC08 /* 外卖.png in Resources */,
 				6F5CE6911D5F02F10056E05D /* placeHoldertouxiang.png in Resources */,
 				6F8FC11A1CDD89DF0038382C /* lv6.jpg in Resources */,
 				6F6A42BB1D11301800134A4D /* CarS0R0TableViewCell.xib in Resources */,
@@ -5226,7 +5254,6 @@
 				6F3988201D1A2FE00005AADC /* pause@3x.png in Resources */,
 				183F15401CDC75E800569EE1 /* btn_021.disable@2x.png in Resources */,
 				6F6A42F01D11301800134A4D /* GoodsS1R1TableViewCell.xib in Resources */,
-				18B0FC061D8BDC0700682277 /* 外卖啊.png in Resources */,
 				6F6A41341D112E1400134A4D /* safety-01.png in Resources */,
 				6F3987541D1A2E740005AADC /* 4.jpg in Resources */,
 				6F6A41081D112E1400134A4D /* image1.png in Resources */,
@@ -5246,6 +5273,7 @@
 				6F6A40FE1D112E1400134A4D /* gweixiu-01.png in Resources */,
 				6F6A40E21D112E1400134A4D /* zhiye-01.png in Resources */,
 				6F3988521D1A2FE00005AADC /* record_lensflip_disable@2x.png in Resources */,
+				18275E101D8E953400E5BC08 /* 服装.png in Resources */,
 				6F3988661D1A2FE00005AADC /* video_icon@2x.png in Resources */,
 				6F6A43551D11301800134A4D /* Section2row2TableViewCell.xib in Resources */,
 				6F6A42E01D11301800134A4D /* FS1R0TableViewCell.xib in Resources */,
@@ -5314,6 +5342,7 @@
 				182F9C131CFD43A30008E5E8 /* after.png in Resources */,
 				6F6A435C1D11301800134A4D /* ShangPuS1R1TableViewCell.xib in Resources */,
 				6F3987751D1A2E740005AADC /* playing_btn_pause_n.png in Resources */,
+				18275E151D8E953400E5BC08 /* 酒店.png in Resources */,
 				6F6A41231D112E1400134A4D /* publish_icon_pet_sale.png in Resources */,
 				6F39884E1D1A2FE00005AADC /* record_icon_hook_normal@2x.png in Resources */,
 				6F6A40D51D112E1400134A4D /* secondhand_furniture.png in Resources */,
@@ -5321,6 +5350,7 @@
 				6F6A40E71D112E1400134A4D /* datu.png in Resources */,
 				E97338781D64600400AEFE5A /* shezhi_01.png in Resources */,
 				6F3988461D1A2FE00005AADC /* record_focus_normal@2x.png in Resources */,
+				18275E0F1D8E953400E5BC08 /* 娱乐.png in Resources */,
 				6F6A413A1D112E1400134A4D /* widget_check_d.png in Resources */,
 				6F39883F1D1A2FE00005AADC /* record_flashlight_normal.png in Resources */,
 				6F6A41321D112E1400134A4D /* 05-01.png in Resources */,
@@ -5346,6 +5376,7 @@
 				6F3988491D1A2FE00005AADC /* record_icon_hook.png in Resources */,
 				6F39881D1D1A2FE00005AADC /* nonfullscreen@2x.png in Resources */,
 				6F6A41121D112E1400134A4D /* house_shangpuchuzu.png in Resources */,
+				18275E131D8E953400E5BC08 /* 美食.png in Resources */,
 				6F6A42F71D11301800134A4D /* HouseS1R0TableViewCell.xib in Resources */,
 				00851C311D86C07C0043511A /* paysuccess.png in Resources */,
 				E97338751D64600400AEFE5A /* liulan_01.png in Resources */,
@@ -5387,7 +5418,6 @@
 				6F6A41101D112E1400134A4D /* house_secondhouse.png in Resources */,
 				6F6A43451D11301800134A4D /* S4R1TableViewCell.xib in Resources */,
 				6F6A43021D11301800134A4D /* JobListTableViewCell.xib in Resources */,
-				18B0FC071D8BDC0700682277 /* 娱乐啊.png in Resources */,
 				6F6A42D81D11301800134A4D /* ErShouFangQiuGouCell.xib in Resources */,
 				6F6A42B51D11301800134A4D /* CarInfoViewController.xib in Resources */,
 				1812B6BD1CF30F3200E29AC3 /* home0.png in Resources */,
@@ -5399,9 +5429,10 @@
 				6F39882C1D1A2FE00005AADC /* g_tabbar_ic_video_down@2x.png in Resources */,
 				00851C2A1D86C07C0043511A /* PayCell.xib in Resources */,
 				182F9C271CFD43A30008E5E8 /* zero.png in Resources */,
+				18275E0C1D8E953400E5BC08 /* 一元夺宝啊.png in Resources */,
 				183AB04B1CF1BDDB00FA4489 /* shangcheng17.png in Resources */,
+				18275E0D1D8E953400E5BC08 /* 万店联盟.png in Resources */,
 				6F39876F1D1A2E740005AADC /* d3.jpg in Resources */,
-				18B0FC0A1D8BDC0700682277 /* 酒店啊.png in Resources */,
 				6F3988191D1A2FE00005AADC /* dot@3x.png in Resources */,
 				6F6A430A1D11301800134A4D /* MoneyViewController.xib in Resources */,
 				E991D5D41D701D7A00894E0E /* 绿色logo.png in Resources */,
@@ -5437,6 +5468,7 @@
 				6F6A42CF1D11301800134A4D /* CompanyViewController.xib in Resources */,
 				6F39885B1D1A2FE00005AADC /* record_tool_highlighted.png in Resources */,
 				E960AFA01D6BE29D002D5C99 /* README.txt in Resources */,
+				18275E111D8E953400E5BC08 /* 消息.png in Resources */,
 				6F6A41211D112E1400134A4D /* publish_icon_home_sale_rss.png in Resources */,
 				6F3988371D1A2FE00005AADC /* record_delete_normal.png in Resources */,
 				6F6A437B1D11624500134A4D /* uuhong.png in Resources */,
@@ -5528,6 +5560,36 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
+		947532FB47FBC106A36358F8 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HuarenjieMarket/Pods-HuarenjieMarket-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A6E57FBA916342C37AF7AD53 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HuarenjieMarket/Pods-HuarenjieMarket-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		DC4291CC5596A3BD2F2AFB6D /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -5541,6 +5603,21 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HuarenjieMarket/Pods-HuarenjieMarket-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E2D50D08275FDECEBD1155E9 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		E3D44CD4531C97C7FBCBC9D8 /* [CP] Embed Pods Frameworks */ = {
@@ -5624,6 +5701,7 @@
 				6F6A42F11D11301800134A4D /* GoodsS1R3TableViewCell.m in Sources */,
 				003E37DC1D878B7000CF209E /* RSADataVerifier.m in Sources */,
 				6F6A43091D11301800134A4D /* MoneyViewController.m in Sources */,
+				E93EFAB31D8E8FDC00BE9C68 /* MapViewController.m in Sources */,
 				E991D5B81D701C0100894E0E /* NSArray+MASAdditions.m in Sources */,
 				6F39886F1D1A2FE00005AADC /* SBCaptureToolKit.m in Sources */,
 				18AE1D551CDC8CE6009FD659 /* MJRefreshConst.m in Sources */,
@@ -6060,10 +6138,13 @@
 					"$(PROJECT_DIR)/HuarenjieMarket/Base.lproj/Venders第三方/SDK/openSDK1.7.3",
 					"$(PROJECT_DIR)/HuarenjieMarket/IntegratedAlipay/AlipaySDK",
 				);
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CODE_SIGN_FLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.newcesh888.www211;
 				PRODUCT_NAME = "华人街HD";
 				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "armv7 armv7s arm64";
 			};
 			name = Debug;
 		};
@@ -6104,10 +6185,13 @@
 					"$(PROJECT_DIR)/HuarenjieMarket/Base.lproj/Venders第三方/SDK/openSDK1.7.3",
 					"$(PROJECT_DIR)/HuarenjieMarket/IntegratedAlipay/AlipaySDK",
 				);
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CODE_SIGN_FLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.newcesh888.www211;
 				PRODUCT_NAME = "华人街HD";
 				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "armv7 armv7s arm64";
 			};
 			name = Release;
 		};
