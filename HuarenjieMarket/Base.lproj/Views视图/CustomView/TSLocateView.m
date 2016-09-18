@@ -50,7 +50,7 @@
     [self setAlpha:1.0f];
     [self.layer addAnimation:animation forKey:@"DDLocateView"];
     
-    self.frame = CGRectMake(0, view.frame.size.height * 0.5, view.frame.size.width, view.frame.size.height * 0.5 - 60);
+    self.frame = CGRectMake(0, view.frame.size.height * 0.5, view.frame.size.width, view.frame.size.height * 0.5 );
     
     [view addSubview:self];
 }

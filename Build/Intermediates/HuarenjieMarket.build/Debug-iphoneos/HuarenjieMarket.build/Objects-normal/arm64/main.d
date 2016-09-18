@@ -1,2 +1,42 @@
-dependencies: /Users/apple/Desktop/HuarenjieMarket/HuarenjieMarket/main.m \
-  /Users/apple/Desktop/HuarenjieMarket/HuarenjieMarket/AppDelegate.h
+dependencies: \
+  /Users/apple/Desktop/finaly赶集电话商城/HuarenjieMarket/main.m \
+  /Users/apple/Desktop/finaly赶集电话商城/HuarenjieMarket/Base.lproj/Controller控制器/生活服务/Header.h \
+  /Users/apple/Desktop/finaly赶集电话商城/HuarenjieMarket/Base.lproj/Controller控制器/生活服务/AFHttpManager.h \
+  /Users/apple/Desktop/finaly赶集电话商城/HuarenjieMarket/Base.lproj/Venders第三方/网络请求/AFNetworking/AFNetworking/AFNetworking.h \
+  /Users/apple/Desktop/finaly赶集电话商城/HuarenjieMarket/Base.lproj/Venders第三方/网络请求/AFNetworking/AFNetworking/AFURLRequestSerialization.h \
+  /Users/apple/Desktop/finaly赶集电话商城/HuarenjieMarket/Base.lproj/Venders第三方/网络请求/AFNetworking/AFNetworking/AFURLResponseSerialization.h \
+  /Users/apple/Desktop/finaly赶集电话商城/HuarenjieMarket/Base.lproj/Venders第三方/网络请求/AFNetworking/AFNetworking/AFSecurityPolicy.h \
+  /Users/apple/Desktop/finaly赶集电话商城/HuarenjieMarket/Base.lproj/Venders第三方/网络请求/AFNetworking/AFNetworking/AFNetworkReachabilityManager.h \
+  /Users/apple/Desktop/finaly赶集电话商城/HuarenjieMarket/Base.lproj/Venders第三方/网络请求/AFNetworking/AFNetworking/AFURLConnectionOperation.h \
+  /Users/apple/Desktop/finaly赶集电话商城/HuarenjieMarket/Base.lproj/Venders第三方/网络请求/AFNetworking/AFNetworking/AFHTTPRequestOperation.h \
+  /Users/apple/Desktop/finaly赶集电话商城/HuarenjieMarket/Base.lproj/Venders第三方/网络请求/AFNetworking/AFNetworking/AFHTTPRequestOperationManager.h \
+  /Users/apple/Desktop/finaly赶集电话商城/HuarenjieMarket/Base.lproj/Venders第三方/网络请求/AFNetworking/AFNetworking/AFURLSessionManager.h \
+  /Users/apple/Desktop/finaly赶集电话商城/HuarenjieMarket/Base.lproj/Venders第三方/网络请求/AFNetworking/AFNetworking/AFHTTPSessionManager.h \
+  /Users/apple/Desktop/finaly赶集电话商城/HuarenjieMarket/Base.lproj/Venders第三方/网络请求/SDWebImage/SDWebImage/UIImageView+WebCache.h \
+  /Users/apple/Desktop/finaly赶集电话商城/HuarenjieMarket/Base.lproj/Venders第三方/网络请求/SDWebImage/SDWebImage/SDWebImageCompat.h \
+  /Users/apple/Desktop/finaly赶集电话商城/HuarenjieMarket/Base.lproj/Venders第三方/网络请求/SDWebImage/SDWebImage/SDWebImageManager.h \
+  /Users/apple/Desktop/finaly赶集电话商城/HuarenjieMarket/Base.lproj/Venders第三方/网络请求/SDWebImage/SDWebImage/SDWebImageOperation.h \
+  /Users/apple/Desktop/finaly赶集电话商城/HuarenjieMarket/Base.lproj/Venders第三方/网络请求/SDWebImage/SDWebImage/SDWebImageDownloader.h \
+  /Users/apple/Desktop/finaly赶集电话商城/HuarenjieMarket/Base.lproj/Venders第三方/网络请求/SDWebImage/SDWebImage/SDImageCache.h \
+  /Users/apple/Desktop/finaly赶集电话商城/HuarenjieMarket/Base.lproj/Venders第三方/网络请求/SDWebImage/SDWebImage/UIButton+WebCache.h \
+  /Users/apple/Desktop/finaly赶集电话商城/HuarenjieMarket/Base.lproj/Controller控制器/生活服务/PickerView.h \
+  /Users/apple/Desktop/finaly赶集电话商城/HuarenjieMarket/Base.lproj/Controller控制器/生活服务/BottomView.h \
+  /Users/apple/Desktop/finaly赶集电话商城/HuarenjieMarket/Base.lproj/Controller控制器/生活服务/JobButton.h \
+  /Users/apple/Desktop/finaly赶集电话商城/HuarenjieMarket/Base.lproj/Controller控制器/生活服务/CarButton.h \
+  /Users/apple/Desktop/finaly赶集电话商城/HuarenjieMarket/Base.lproj/Controller控制器/生活服务/JobListViewController.h \
+  /Users/apple/Desktop/finaly赶集电话商城/HuarenjieMarket/Base.lproj/Controller控制器/生活服务/ResumeInfo.h \
+  /Users/apple/Desktop/finaly赶集电话商城/HuarenjieMarket/Base.lproj/Controller控制器/生活服务/CarInfo.h \
+  /Users/apple/Desktop/finaly赶集电话商城/HuarenjieMarket/Base.lproj/Controller控制器/生活服务/BikeInfo.h \
+  /Users/apple/Desktop/finaly赶集电话商城/HuarenjieMarket/Base.lproj/Controller控制器/生活服务/FullTimeInfo.h \
+  /Users/apple/Desktop/finaly赶集电话商城/HuarenjieMarket/Base.lproj/Controller控制器/生活服务/ErShouGoods.h \
+  /Users/apple/Desktop/finaly赶集电话商城/HuarenjieMarket/Base.lproj/Controller控制器/生活服务/ErShouFangQiuGouInfo.h \
+  /Users/apple/Desktop/finaly赶集电话商城/HuarenjieMarket/Base.lproj/Controller控制器/生活服务/ErShouFangInfo.h \
+  /Users/apple/Desktop/finaly赶集电话商城/HuarenjieMarket/Base.lproj/Controller控制器/生活服务/PartTimeInfo.h \
+  /Users/apple/Desktop/finaly赶集电话商城/HuarenjieMarket/Base.lproj/Controller控制器/生活服务/ShangPuInfo.h \
+  /Users/apple/Desktop/finaly赶集电话商城/HuarenjieMarket/Base.lproj/Controller控制器/生活服务/NewHouseInfo.h \
+  /Users/apple/Desktop/finaly赶集电话商城/HuarenjieMarket/Base.lproj/Controller控制器/生活服务/HeZuInfo.h \
+  /Users/apple/Desktop/finaly赶集电话商城/HuarenjieMarket/Base.lproj/Controller控制器/生活服务/QiuZuInfo.h \
+  /Users/apple/Desktop/finaly赶集电话商城/HuarenjieMarket/Base.lproj/Controller控制器/生活服务/RiZuDuanZu.h \
+  /Users/apple/Desktop/finaly赶集电话商城/HuarenjieMarket/Base.lproj/Venders第三方/MBProgressHUD/MBProgressHUD.h \
+  /Users/apple/Desktop/finaly赶集电话商城/HuarenjieMarket/Base.lproj/Controller控制器/生活服务/CheckText.h \
+  /Users/apple/Desktop/finaly赶集电话商城/HuarenjieMarket/AppDelegate.h

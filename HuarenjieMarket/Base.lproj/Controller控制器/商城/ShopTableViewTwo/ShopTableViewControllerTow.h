@@ -10,4 +10,5 @@
 
 @interface ShopTableViewControllerTow : UITableViewController
 @property (nonatomic, strong)NSMutableArray *urlArr;
+@property (nonatomic, copy) NSString *urls;
 @end

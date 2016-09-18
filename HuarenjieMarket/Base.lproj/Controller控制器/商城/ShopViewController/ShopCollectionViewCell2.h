@@ -7,9 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "goodModel.h"
 @interface ShopCollectionViewCell2 : UICollectionViewCell
 @property (weak, nonatomic) IBOutlet UIImageView *good_image;
 @property (weak, nonatomic) IBOutlet UILabel *good_name;
 
+- (void)show:(goodModel *)goodM;
 @end

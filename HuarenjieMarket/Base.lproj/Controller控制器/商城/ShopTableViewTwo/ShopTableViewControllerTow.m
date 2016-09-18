@@ -14,15 +14,38 @@
 #import "AFHTTPRequestOperationManager.h"
 #import "goodModel.h"
 #import "UIImageView+WebCache.h"
+#import "ShopWebViewController.h"
 #define url(A) [NSString stringWithFormat:@"http://zghrj.cn/mobile/index.php?act=goods&op=goods_list&key=4&page=10&curpage=1&gc_id=%d",A]
 
 @interface ShopTableViewControllerTow ()
 
 @property (nonatomic, strong)UIButton *btn;
 @property (nonatomic, strong)NSMutableArray *goodArr;
+@property (nonatomic, strong)NSMutableArray *priseArr;
+
 @end
 
 @implementation ShopTableViewControllerTow
+
+- (NSMutableArray *)urlArr {
+    if (!_urlArr) {
+        self.urlArr = [NSMutableArray arrayWithCapacity:0];
+    }
+    return _urlArr;
+}
+
+- (NSMutableArray *)priseArr {
+    if (!_priseArr) {
+        self.priseArr = [NSMutableArray arrayWithCapacity:0];
+    }
+    return _priseArr;
+}
+
++ (goodModel *)initWithName:(NSString *)prise {
+    goodModel *goodM = [[goodModel alloc]init];
+    goodM.goods_price = prise;
+    return goodM;
+}
 
 
 - (void)viewDidLoad {
@@ -34,23 +57,21 @@
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
    
-    
    
-    
     //添加轮播图
-    
-    SDCycleScrollView *sdCycle = [SDCycleScrollView cycleScrollViewWithFrame:CGRectMake(0, 0, ScreenW, 150) imagesGroup:[NSMutableArray arrayWithObjects:[UIImage imageNamed:@"1"],[UIImage imageNamed:@"12"],[UIImage imageNamed:@"13"], nil]];
+    SDCycleScrollView *sdCycle = [SDCycleScrollView cycleScrollViewWithFrame:CGRectMake(0, 0, ScreenW, 150) shouldInfiniteLoop:YES imageNamesGroup:[NSMutableArray arrayWithObjects:[UIImage imageNamed:@"1"],[UIImage imageNamed:@"12"],[UIImage imageNamed:@"13"], nil]];
     
     self.tableView.tableHeaderView = sdCycle;
     
-    
     for (int i = 0; i < self.urlArr.count; i ++) {
-        int A = (int)[self.urlArr objectAtIndex:i];
+        int A = [[self.urlArr objectAtIndex:i]intValue];
         [self requestURL:A];
+
     };
 
 }
 
+#define mark ----------网络请求
 - (void)requestURL:(int)A {
     AFHTTPRequestOperationManager *manager = [[AFHTTPRequestOperationManager alloc]init];
     manager.responseSerializer.acceptableContentTypes = [NSSet setWithObjects:@"text/html", nil];
@@ -62,6 +83,13 @@
     }];
 }
 
+
+
+
+
+
+
+//数组数据解析
 - (void)startParseJSONData:(NSMutableDictionary *)responseObject {
     NSMutableDictionary *dataDic = responseObject[@"datas"];
     NSMutableArray *listArr = dataDic[@"goods_list"];
@@ -71,7 +99,6 @@
         [self.goodArr addObject:goodM];
         NSLog(@"%ld",self.goodArr.count);
     }
-    
    
     [self.tableView reloadData];
 }
@@ -90,59 +117,63 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
 #warning Incomplete implementation, return the number of rows
-    if (section ==0) {
-        return 1;
-    }
+//    if (section ==0) {
+//        return 1;
+//    }
     return self.goodArr.count;
 }
 
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    if (indexPath.section == 0) {
-        ScrollTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"cell2"];
-        
-        //创建button
-        
-        for (int i = 0; i<8 ; i++) {
-            if (i < 4) {
-                self.btn = [[UIButton alloc]initWithFrame:CGRectMake(i * ScreenW / 4, 0, ScreenW / 4, ScreenW / 4)];
-                self.btn.tag = 100 + i;
-                [self.btn setImage:[UIImage imageNamed:[NSString stringWithFormat:@"s%d.jpg",i+1]] forState:UIControlStateNormal];
-               
-                [cell.contentView addSubview:self.btn];
-            }
-            else {
-                self.btn = [[UIButton alloc]initWithFrame:CGRectMake((i - 4) * ScreenW / 4, ScreenW / 4, ScreenW / 4, ScreenW / 4)];
-                self.btn.tag = 100 + i;
-                [self.btn setImage:[UIImage imageNamed:[NSString stringWithFormat:@"s%d.jpg",i - 3]] forState:UIControlStateNormal];
-                
-                [cell.contentView addSubview:self.btn];
-            }
-            
-           
-            [self.btn addTarget:self action:@selector(handleAction:) forControlEvents:UIControlEventTouchUpInside];
-            
-        }
-        
-        return cell;
-    }
+//    if (indexPath.section == 0) {
+//        ScrollTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"cell2"];
+//        
+//        //创建button
+//        
+//    for (int i = 0; i<8 ; i++) {
+//        if (i < 4) {
+//            self.btn = [[UIButton alloc]initWithFrame:CGRectMake(i * ScreenW / 4, 0, ScreenW / 4, ScreenW / 4)];
+//            self.btn.tag = 100 + i;
+//            [self.btn setImage:[UIImage imageNamed:[NSString stringWithFormat:@"s%d.jpg",i+1]] forState:UIControlStateNormal];
+//               
+//            [cell.contentView addSubview:self.btn];
+//            }
+//        else {
+//            self.btn = [[UIButton alloc]initWithFrame:CGRectMake((i - 4) * ScreenW / 4, ScreenW / 4, ScreenW / 4, ScreenW / 4)];
+//            self.btn.tag = 100 + i;
+//            [self.btn setImage:[UIImage imageNamed:[NSString stringWithFormat:@"s%d.jpg",i - 3]] forState:UIControlStateNormal];
+//                
+//            [cell.contentView addSubview:self.btn];
+//            }
+//        
+//            [self.btn addTarget:self action:@selector(handleAction:) forControlEvents:UIControlEventTouchUpInside];
+//            
+//        }
+//        
+//        return cell;
+//    }
+//    if (_urls) {
+//        ShopTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"cell1" forIndexPath:indexPath];
+//        goodModel *goodM = _dataSource[indexPath.row];
+//        [self.priseArr addObject:goodM.goods_price];
+//        [cell show:goodM];
+//        return cell;
+//    }
     ShopTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"cell1" forIndexPath:indexPath];
     goodModel *goodM = self.goodArr[indexPath.row];
-    
-    [cell.shopImage sd_setImageWithURL:[NSURL URLWithString:goodM.goods_image_url]];
-    cell.shopName.text = goodM.goods_name;
-    cell.shopPrice.text = [NSString stringWithFormat:@"￥%@",goodM.goods_price];
-    
-    
-    // Configure the cell...
-    
+    [self.priseArr addObject:goodM.goods_price];
+    cell.shopOld.text = [NSString stringWithFormat:@"门市价%u",[goodM.goods_price intValue] + 58];
+    cell.shopLocal.text = [NSString stringWithFormat:@"<%u米",(arc4random() % 1000) + 200];
+    cell.shopDetail.text = @"20元抵用券一张";
+    [cell show:goodM];
     return cell;
 
 }
 
 -(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
     if (indexPath.section == 0) {
-        return ScreenW / 2 ;
+      //  return ScreenW / 2 ;
+        return  0;
     }
     else {
     return 110;
@@ -191,10 +222,13 @@
  
         for (int i = 0; i<4; i++) {
             UIButton *btn = [[UIButton alloc] initWithFrame:CGRectMake(i * ScreenW / 4, 0, ScreenW / 4, 40)];
-            [btn setImage:[UIImage imageNamed:[NSString stringWithFormat:@"排序%d",i+1]] forState:UIControlStateNormal];
+            
+            [btn setImage:[UIImage imageNamed:[NSString stringWithFormat:@"%d-01",i+1]] forState:UIControlStateNormal];
             [btn addTarget:self action:@selector(handleAB:) forControlEvents:UIControlEventTouchUpInside];
-            [btn setTag:300 + i];
+            [btn setTag:301 + i];
+            
             [views addSubview:btn];
+        
         }
         return views;
     }
@@ -203,8 +237,13 @@
 
 -(void)handleAB:(UIButton *)sender {
     switch (sender.tag) {
-        case 301:
-            NSLog(@"排序1");
+        case 301:{
+            
+            NSLog(@"(((((((((%@",self.goodArr);
+    //        [self.goodArr sortedArrayUsingSelector:@selector(compareGood:)];
+            NSLog(@"*********%@",self.goodArr);
+//          [self.tableView reloadData];
+        }
             break;
         case 302:
             NSLog(@"排序2");
@@ -215,10 +254,32 @@
         case 304:
             NSLog(@"排序4");
             break;
+            
         default:
             break;
+  
     }
 }
+
+#pragma mark  -----价格比较
+- (NSComparisonResult)compareGood:(goodModel *)goodM {
+   
+    NSComparisonResult result = [[NSNumber numberWithInt: [goodM.goods_price intValue]] compare:[NSNumber numberWithInt:[goodM.goods_price intValue]]];
+    
+    return result;
+}
+
+////自定义排序方法
+//-(NSComparisonResult)comparePerson:(Person *)person{
+//    //默认按年龄排序
+//    NSComparisonResult result = [[NSNumber numberWithInt:person.age] compare:[NSNumber numberWithInt:self.age]];//注意:基本数据类型要进行数据转换
+//    //如果年龄一样，就按照名字排序
+//    if (result == NSOrderedSame) {
+//        result = [self.name compare:person.name];
+//    }
+//    return result;
+//}
+
 
 // 返回区头尺寸
 -(CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section {
@@ -227,6 +288,8 @@
     }
     return 0;
 }
+
+
 //点击返回上一层
 - (IBAction)backAction:(UIBarButtonItem *)sender {
     [self.navigationController popViewControllerAnimated:YES];
@@ -266,14 +329,23 @@
 }
 */
 
-/*
+
 #pragma mark - Navigation
 
 // In a storyboard-based application, you will often want to do a little preparation before navigation
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+
+    if ([segue.identifier isEqualToString:@"TwoToWab"]) {
+        ShopWebViewController *shopWeb = [segue destinationViewController];
+        NSIndexPath *indexPath = [self.tableView indexPathForCell:sender];
+        if (indexPath.section == 1) {
+            goodModel *goodM = self.goodArr[indexPath.row];
+            shopWeb.good_ID = goodM.goods_id;
+        }
+    }
+    
+    
 }
-*/
+
 
 @end

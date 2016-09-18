@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="S2R2" rowHeight="177" id="KGk-i7-Jjw" customClass="Section2row2TableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="40"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="39"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="福       利" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dZO-ry-SOD">
+                        <rect key="frame" x="10" y="10" width="60" height="17"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="60" id="93w-go-lll"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="带薪年假 加班补助 双休" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wM8-on-OSK">
+                        <rect key="frame" x="80" y="10" width="230" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="dZO-ry-SOD" secondAttribute="bottom" constant="10" id="0Uv-iv-oAt"/>
+                    <constraint firstItem="dZO-ry-SOD" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="B6o-eE-2sx"/>
+                    <constraint firstAttribute="bottom" secondItem="wM8-on-OSK" secondAttribute="bottom" constant="10" id="DFC-UX-sFD"/>
+                    <constraint firstItem="wM8-on-OSK" firstAttribute="leading" secondItem="dZO-ry-SOD" secondAttribute="trailing" constant="10" id="Meq-yp-mF8"/>
+                    <constraint firstItem="dZO-ry-SOD" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="Z8K-qJ-EvL"/>
+                    <constraint firstItem="wM8-on-OSK" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="cRI-Lm-RPD"/>
+                    <constraint firstAttribute="trailing" secondItem="wM8-on-OSK" secondAttribute="trailing" constant="10" id="ftD-YK-uFr"/>
+                </constraints>
+                <variation key="default">
+                    <mask key="constraints">
+                        <exclude reference="0Uv-iv-oAt"/>
+                        <exclude reference="DFC-UX-sFD"/>
+                    </mask>
+                </variation>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="otherLabel" destination="wM8-on-OSK" id="NRf-bB-aBt"/>
+            </connections>
+            <point key="canvasLocation" x="217" y="314.5"/>
+        </tableViewCell>
+    </objects>
+</document>

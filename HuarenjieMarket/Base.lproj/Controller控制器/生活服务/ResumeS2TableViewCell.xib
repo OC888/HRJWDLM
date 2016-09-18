@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ResumeS2" rowHeight="55" id="KGk-i7-Jjw" customClass="ResumeS2TableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="55"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="54"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="自我描述" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="egD-fx-pTX">
+                        <rect key="frame" x="10" y="10" width="60" height="15"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="15" id="bPj-g6-pnZ"/>
+                            <constraint firstAttribute="width" constant="60" id="pWR-tA-1s8"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cDS-by-KB9">
+                        <rect key="frame" x="10" y="30" width="300" height="14"/>
+                        <string key="text">从事服装导购约1年时间，之后在浙江星星股份有限公司从事品质管理2年有余从事服装导购约1年时间，之后在浙江星星股份有限公司从事品质管理2年有余从事服装导购约1年时间，之后在浙江星星股份有限公司从事品质管理2年有余从事服装导购约1年时间，之后在浙江星星股份有限公司从事品质管理2年有余从事服装导购约1年时间，之后在浙江星星股份有限公司从事品质管理2年有余</string>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="egD-fx-pTX" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="G4b-Qh-bhY"/>
+                    <constraint firstAttribute="trailing" secondItem="cDS-by-KB9" secondAttribute="trailing" constant="10" id="QbO-J8-ltN"/>
+                    <constraint firstItem="cDS-by-KB9" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="VUx-Hz-inL"/>
+                    <constraint firstItem="cDS-by-KB9" firstAttribute="top" secondItem="egD-fx-pTX" secondAttribute="bottom" constant="5" id="aGP-1s-buQ"/>
+                    <constraint firstItem="egD-fx-pTX" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="paM-xR-nwd"/>
+                    <constraint firstAttribute="bottom" secondItem="cDS-by-KB9" secondAttribute="bottom" constant="10" id="vZr-u4-bo1"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="describeLabel" destination="cDS-by-KB9" id="swi-uA-cXw"/>
+            </connections>
+            <point key="canvasLocation" x="211" y="153.5"/>
+        </tableViewCell>
+    </objects>
+</document>

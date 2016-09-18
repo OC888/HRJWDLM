@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="HouseS2R0" id="KGk-i7-Jjw" customClass="HouseS2R0TableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="40"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="39"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="小       区" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yEP-6O-B9C">
+                        <rect key="frame" x="10" y="10" width="60" height="19"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="60" id="Knc-lZ-QVp"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="沈庄新城社区" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZWO-oU-rRq">
+                        <rect key="frame" x="80" y="10" width="210" height="19"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="ObA-My-zRv"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="ObA-My-zRv"/>
+                            </mask>
+                        </variation>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="yEP-6O-B9C" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="0Gy-DE-N0m"/>
+                    <constraint firstAttribute="bottom" secondItem="ZWO-oU-rRq" secondAttribute="bottom" constant="10" id="Fcc-Qe-VAN"/>
+                    <constraint firstItem="ZWO-oU-rRq" firstAttribute="leading" secondItem="yEP-6O-B9C" secondAttribute="trailing" constant="10" id="cYg-Z5-Ltx"/>
+                    <constraint firstAttribute="bottom" secondItem="yEP-6O-B9C" secondAttribute="bottom" constant="10" id="ebh-vW-Ka3"/>
+                    <constraint firstItem="ZWO-oU-rRq" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="jvD-z3-VAh"/>
+                    <constraint firstItem="yEP-6O-B9C" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="lPd-vd-sPX"/>
+                    <constraint firstAttribute="trailing" secondItem="ZWO-oU-rRq" secondAttribute="trailing" constant="30" id="y80-nh-yJ8"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="xiaoquLabel" destination="ZWO-oU-rRq" id="sMO-dE-WL2"/>
+                <outlet property="xiaoquTitleLabel" destination="yEP-6O-B9C" id="Xbf-yO-2gZ"/>
+            </connections>
+            <point key="canvasLocation" x="42" y="240"/>
+        </tableViewCell>
+    </objects>
+</document>

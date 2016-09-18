@@ -12,5 +12,5 @@
 @interface MainTableViewControllerNew : UITableViewController<UIActionSheetDelegate>
 
 @property (weak, nonatomic) IBOutlet UIBarButtonItem *LocationItem;
--(void)startLocation;
+
 @end

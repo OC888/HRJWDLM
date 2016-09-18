@@ -10,12 +10,12 @@
 @class goodModel;
 
 @interface ShopTableViewCell : UITableViewCell
-@property (strong, nonatomic) IBOutlet UIImageView *shopImage;
-@property (strong, nonatomic) IBOutlet UILabel *shopName;
-@property (strong, nonatomic) IBOutlet UILabel *shopDetail;
-@property (strong, nonatomic) IBOutlet UILabel *shopPrice;
-@property (strong, nonatomic) IBOutlet UILabel *shopOld;
-@property (strong, nonatomic) IBOutlet UILabel *shopLocal;
+@property (strong, nonatomic) IBOutlet UIImageView *shopImage;//照片
+@property (strong, nonatomic) IBOutlet UILabel *shopName;//商品名称
+@property (strong, nonatomic) IBOutlet UILabel *shopDetail;//优惠券
+@property (strong, nonatomic) IBOutlet UILabel *shopPrice;//价格
+@property (strong, nonatomic) IBOutlet UILabel *shopOld;//门市价
+@property (strong, nonatomic) IBOutlet UILabel *shopLocal;//距离
 @property (strong, nonatomic) IBOutlet UILabel *shopNum;
 
 - (void)show:(goodModel *)goodM;

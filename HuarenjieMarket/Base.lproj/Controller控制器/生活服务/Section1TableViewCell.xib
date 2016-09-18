@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="S1" rowHeight="65" id="KGk-i7-Jjw" customClass="Section1TableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="327" height="75"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="327" height="74"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="无责任底薪3000+高提成诚聘销售精英" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="p02-CT-6Ks">
+                        <rect key="frame" x="10" y="10" width="307" height="40"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="40" id="SUC-qJ-cG5"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="16"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="发布时间 16小时前" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nYP-yx-GaO">
+                        <rect key="frame" x="10" y="55" width="217" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="UHc-Nv-Yuv"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="浏览：31次" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Dv-R1-Udx">
+                        <rect key="frame" x="232" y="55" width="77" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="g4d-ih-a6f"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="p02-CT-6Ks" secondAttribute="trailing" constant="10" id="3Yr-Nf-Ogx"/>
+                    <constraint firstItem="p02-CT-6Ks" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="76h-VA-Ld3"/>
+                    <constraint firstItem="nYP-yx-GaO" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="Fda-TI-SIU"/>
+                    <constraint firstItem="p02-CT-6Ks" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="WzN-Pt-zuN"/>
+                    <constraint firstAttribute="trailing" secondItem="nYP-yx-GaO" secondAttribute="trailing" constant="100" id="c1r-3m-xQp"/>
+                    <constraint firstItem="nYP-yx-GaO" firstAttribute="top" secondItem="p02-CT-6Ks" secondAttribute="bottom" constant="5" id="lmQ-nE-n8Z"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="7Dv-R1-Udx" secondAttribute="trailing" constant="10" id="rjd-h7-Cu5"/>
+                    <constraint firstItem="7Dv-R1-Udx" firstAttribute="leading" secondItem="nYP-yx-GaO" secondAttribute="trailing" constant="5" id="v2v-pL-IAt"/>
+                    <constraint firstItem="7Dv-R1-Udx" firstAttribute="top" secondItem="p02-CT-6Ks" secondAttribute="bottom" constant="5" id="xQr-Gi-eDH"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="browserLabel" destination="7Dv-R1-Udx" id="Dhf-yE-xkv"/>
+                <outlet property="timeLabel" destination="nYP-yx-GaO" id="DH3-p5-qJv"/>
+                <outlet property="titleLabel" destination="p02-CT-6Ks" id="P4c-rb-Yi2"/>
+            </connections>
+            <point key="canvasLocation" x="364.5" y="179.5"/>
+        </tableViewCell>
+    </objects>
+</document>

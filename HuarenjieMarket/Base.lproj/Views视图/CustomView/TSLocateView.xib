@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
@@ -7,22 +7,23 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <view contentMode="scaleToFill" id="1" userLabel="LocateView" customClass="TSLocateView">
-            <rect key="frame" x="0.0" y="0.0" width="375" height="300"/>
+        <view contentMode="scaleToFill" id="8JX-Kz-pM2" userLabel="LocateView" customClass="TSLocateView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="290"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <pickerView contentMode="scaleToFill" id="3" userLabel="LocatePicker">
+                <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="E5h-ZQ-aGD" userLabel="LocatePicker">
                     <rect key="frame" x="0.0" y="44" width="375" height="216"/>
-                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                     <color key="tintColor" red="0.0" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                 </pickerView>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="bg_023.png" id="4" userLabel="TitleView">
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="bg_023.png" translatesAutoresizingMaskIntoConstraints="NO" id="ckx-Hg-PMx" userLabel="TitleView">
                     <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 </imageView>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="5" userLabel="CancelButton">
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Drp-pa-CRJ" userLabel="CancelButton">
                     <rect key="frame" x="8" y="1" width="42" height="42"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="42" id="Xd8-hC-I63"/>
+                        <constraint firstAttribute="height" constant="42" id="q4E-6s-FdK"/>
+                    </constraints>
                     <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                     <state key="normal" image="btn_021.png">
                         <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
@@ -33,12 +34,15 @@
                         <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
                     <connections>
-                        <action selector="cancel:" destination="1" eventType="touchUpInside" id="10"/>
+                        <action selector="cancel:" destination="8JX-Kz-pM2" eventType="touchUpInside" id="0QT-TK-HHu"/>
                     </connections>
                 </button>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="6" userLabel="LocateButton">
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QMh-Tk-u7e" userLabel="LocateButton">
                     <rect key="frame" x="325" y="0.0" width="42" height="42"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="42" id="4YJ-AG-saR"/>
+                        <constraint firstAttribute="width" constant="42" id="i5I-O4-vf4"/>
+                    </constraints>
                     <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                     <state key="normal" image="btn_020.png">
                         <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
@@ -49,25 +53,49 @@
                         <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
                     <connections>
-                        <action selector="locate:" destination="1" eventType="touchUpInside" id="11"/>
+                        <action selector="locate:" destination="8JX-Kz-pM2" eventType="touchUpInside" id="YxU-1n-rfE"/>
                     </connections>
                 </button>
-                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="定位城市" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" adjustsFontSizeToFit="NO" id="8" userLabel="TitleLabel">
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="定位城市" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LXw-eZ-KWq" userLabel="TitleLabel">
                     <rect key="frame" x="0.0" y="11" width="375" height="21"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
                     <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    <nil key="highlightedColor"/>
+                    <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                 </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fg1-g2-OG5">
+                    <rect key="frame" x="0.0" y="260" width="375" height="30"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                </view>
             </subviews>
-            <color key="backgroundColor" red="0.2588235438" green="0.59607845540000004" blue="0.87450987099999999" alpha="1" colorSpace="deviceRGB"/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="Drp-pa-CRJ" firstAttribute="top" secondItem="8JX-Kz-pM2" secondAttribute="top" constant="1" id="6G1-ss-u6d"/>
+                <constraint firstItem="fg1-g2-OG5" firstAttribute="leading" secondItem="8JX-Kz-pM2" secondAttribute="leading" id="7VL-KU-mGp"/>
+                <constraint firstItem="E5h-ZQ-aGD" firstAttribute="top" secondItem="ckx-Hg-PMx" secondAttribute="bottom" id="9st-Te-5oE"/>
+                <constraint firstItem="LXw-eZ-KWq" firstAttribute="leading" secondItem="8JX-Kz-pM2" secondAttribute="leading" id="BDx-uz-ULT"/>
+                <constraint firstItem="E5h-ZQ-aGD" firstAttribute="top" secondItem="LXw-eZ-KWq" secondAttribute="bottom" constant="12" id="E1P-KC-MTu"/>
+                <constraint firstItem="ckx-Hg-PMx" firstAttribute="leading" secondItem="8JX-Kz-pM2" secondAttribute="leading" id="Eii-uk-Jnz"/>
+                <constraint firstItem="E5h-ZQ-aGD" firstAttribute="leading" secondItem="8JX-Kz-pM2" secondAttribute="leading" id="Hzj-bG-vbO"/>
+                <constraint firstAttribute="trailing" secondItem="fg1-g2-OG5" secondAttribute="trailing" id="ImI-F9-bF1"/>
+                <constraint firstAttribute="trailing" secondItem="E5h-ZQ-aGD" secondAttribute="trailing" id="JsE-TN-7nl"/>
+                <constraint firstItem="ckx-Hg-PMx" firstAttribute="top" secondItem="8JX-Kz-pM2" secondAttribute="top" id="R9B-Xz-3Xc"/>
+                <constraint firstAttribute="bottom" secondItem="fg1-g2-OG5" secondAttribute="bottom" id="Ygc-Gh-A4q"/>
+                <constraint firstAttribute="trailing" secondItem="LXw-eZ-KWq" secondAttribute="trailing" id="fY0-AH-ndn"/>
+                <constraint firstItem="fg1-g2-OG5" firstAttribute="top" secondItem="E5h-ZQ-aGD" secondAttribute="bottom" id="frE-ay-1Og"/>
+                <constraint firstItem="Drp-pa-CRJ" firstAttribute="leading" secondItem="8JX-Kz-pM2" secondAttribute="leading" constant="8" id="nEC-MI-nyc"/>
+                <constraint firstItem="LXw-eZ-KWq" firstAttribute="top" secondItem="8JX-Kz-pM2" secondAttribute="top" constant="11" id="o1c-d2-l0d"/>
+                <constraint firstItem="E5h-ZQ-aGD" firstAttribute="top" secondItem="ckx-Hg-PMx" secondAttribute="bottom" id="ppr-uG-hJt"/>
+                <constraint firstAttribute="trailing" secondItem="QMh-Tk-u7e" secondAttribute="trailing" constant="8" id="sCu-CD-Pr1"/>
+                <constraint firstAttribute="trailing" secondItem="ckx-Hg-PMx" secondAttribute="trailing" id="ukO-mW-cEq"/>
+                <constraint firstItem="QMh-Tk-u7e" firstAttribute="top" secondItem="8JX-Kz-pM2" secondAttribute="top" id="vK8-RT-YD3"/>
+            </constraints>
             <nil key="simulatedStatusBarMetrics"/>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <connections>
-                <outlet property="locatePicker" destination="3" id="7"/>
-                <outlet property="titleLabel" destination="8" id="9"/>
+                <outlet property="locatePicker" destination="E5h-ZQ-aGD" id="g8O-UD-1FB"/>
+                <outlet property="titleLabel" destination="LXw-eZ-KWq" id="3KY-QL-U5W"/>
             </connections>
-            <point key="canvasLocation" x="389" y="368"/>
+            <point key="canvasLocation" x="350.5" y="233"/>
         </view>
     </objects>
     <resources>
