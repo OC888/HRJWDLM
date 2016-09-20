@@ -63,4 +63,5 @@ dependencies: \
   /Users/apple/Desktop/9.19可上传版本(加入地图)/HuarenjieMarket/Base.lproj/Controller控制器/登陆/LoginViewController.h \
   /Users/apple/Desktop/9.19可上传版本(加入地图)/HuarenjieMarket/Base.lproj/Controller控制器/个人中心/AdviseViewController.h \
   /Users/apple/Desktop/9.19可上传版本(加入地图)/HuarenjieMarket/Base.lproj/Venders第三方/MyNetWorking/MyNetWorking.h \
-  /Users/apple/Desktop/9.19可上传版本(加入地图)/HuarenjieMarket/Base.lproj/Controller控制器/个人中心/支付/PayViewController.h
+  /Users/apple/Desktop/9.19可上传版本(加入地图)/HuarenjieMarket/Base.lproj/Controller控制器/个人中心/支付/PayViewController.h \
+  /Users/apple/Desktop/9.19可上传版本(加入地图)/HuarenjieMarket/Base.lproj/Controller控制器/个人中心/SetOfShopViewController.h

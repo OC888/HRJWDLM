@@ -111,6 +111,11 @@
 		18275E131D8E953400E5BC08 /* 美食.png in Resources */ = {isa = PBXBuildFile; fileRef = 18275E091D8E953400E5BC08 /* 美食.png */; };
 		18275E141D8E953400E5BC08 /* 视频.png in Resources */ = {isa = PBXBuildFile; fileRef = 18275E0A1D8E953400E5BC08 /* 视频.png */; };
 		18275E151D8E953400E5BC08 /* 酒店.png in Resources */ = {isa = PBXBuildFile; fileRef = 18275E0B1D8E953400E5BC08 /* 酒店.png */; };
+		18275E201D8FBF9500E5BC08 /* SetOfShopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18275E1E1D8FBF9500E5BC08 /* SetOfShopViewController.m */; };
+		18275E211D8FBF9500E5BC08 /* SetOfShopViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18275E1F1D8FBF9500E5BC08 /* SetOfShopViewController.xib */; };
+		18275E231D8FE78B00E5BC08 /* 协议.png in Resources */ = {isa = PBXBuildFile; fileRef = 18275E221D8FE78A00E5BC08 /* 协议.png */; };
+		18275E251D8FE85500E5BC08 /* 未选中.png in Resources */ = {isa = PBXBuildFile; fileRef = 18275E241D8FE85500E5BC08 /* 未选中.png */; };
+		18275E271D8FF63700E5BC08 /* 申请开店背景.png in Resources */ = {isa = PBXBuildFile; fileRef = 18275E261D8FF63700E5BC08 /* 申请开店背景.png */; };
 		1829FCAE1CF3E23C00875B42 /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1829FC971CF3E23C00875B42 /* SearchViewController.m */; };
 		1829FCAF1CF3E23C00875B42 /* SearchWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1829FC991CF3E23C00875B42 /* SearchWebViewController.m */; };
 		1829FCB41CF3E23C00875B42 /* ShopCollectionReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1829FCA51CF3E23C00875B42 /* ShopCollectionReusableView.m */; };
@@ -284,6 +289,8 @@
 		18AE1D811CDC9032009FD659 /* 排序2.png in Resources */ = {isa = PBXBuildFile; fileRef = 18AE1D741CDC9032009FD659 /* 排序2.png */; };
 		18AE1D821CDC9032009FD659 /* 排序4.png in Resources */ = {isa = PBXBuildFile; fileRef = 18AE1D751CDC9032009FD659 /* 排序4.png */; };
 		18AE1D831CDC9032009FD659 /* 排序3.png in Resources */ = {isa = PBXBuildFile; fileRef = 18AE1D761CDC9032009FD659 /* 排序3.png */; };
+		18F213731D90E7D50002FCD9 /* 定位图标.png in Resources */ = {isa = PBXBuildFile; fileRef = 18F213721D90E7D50002FCD9 /* 定位图标.png */; };
+		18F213751D9133440002FCD9 /* 上传图片 (1).png in Resources */ = {isa = PBXBuildFile; fileRef = 18F213741D9133430002FCD9 /* 上传图片 (1).png */; };
 		6C8552572FB455895C72102E /* libPods-HuarenjieMarket.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E8ADE3E727BA7CC57366B63 /* libPods-HuarenjieMarket.a */; };
 		6F109D201D0BC039001409A8 /* usernamePic.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F109D1E1D0BC039001409A8 /* usernamePic.png */; };
 		6F109D211D0BC039001409A8 /* passwordPic_.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F109D1F1D0BC039001409A8 /* passwordPic_.png */; };
@@ -1244,6 +1251,12 @@
 		18275E091D8E953400E5BC08 /* 美食.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "美食.png"; sourceTree = "<group>"; };
 		18275E0A1D8E953400E5BC08 /* 视频.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "视频.png"; sourceTree = "<group>"; };
 		18275E0B1D8E953400E5BC08 /* 酒店.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "酒店.png"; sourceTree = "<group>"; };
+		18275E1D1D8FBF9500E5BC08 /* SetOfShopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetOfShopViewController.h; sourceTree = "<group>"; };
+		18275E1E1D8FBF9500E5BC08 /* SetOfShopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SetOfShopViewController.m; sourceTree = "<group>"; };
+		18275E1F1D8FBF9500E5BC08 /* SetOfShopViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SetOfShopViewController.xib; sourceTree = "<group>"; };
+		18275E221D8FE78A00E5BC08 /* 协议.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "协议.png"; sourceTree = "<group>"; };
+		18275E241D8FE85500E5BC08 /* 未选中.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "未选中.png"; sourceTree = "<group>"; };
+		18275E261D8FF63700E5BC08 /* 申请开店背景.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "申请开店背景.png"; sourceTree = "<group>"; };
 		1829FC961CF3E23C00875B42 /* SearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
 		1829FC971CF3E23C00875B42 /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
 		1829FC981CF3E23C00875B42 /* SearchWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchWebViewController.h; sourceTree = "<group>"; };
@@ -1493,6 +1506,8 @@
 		18AE1D751CDC9032009FD659 /* 排序4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "排序4.png"; path = "../../排序4.png"; sourceTree = "<group>"; };
 		18AE1D761CDC9032009FD659 /* 排序3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "排序3.png"; path = "../../排序3.png"; sourceTree = "<group>"; };
 		18AE1DA11CDC90EC009FD659 /* General.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = General.h; sourceTree = "<group>"; };
+		18F213721D90E7D50002FCD9 /* 定位图标.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "定位图标.png"; sourceTree = "<group>"; };
+		18F213741D9133430002FCD9 /* 上传图片 (1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "上传图片 (1).png"; sourceTree = "<group>"; };
 		5B9D81101E6E1C92FC434FCF /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		6F109D1E1D0BC039001409A8 /* usernamePic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = usernamePic.png; path = ../../usernamePic.png; sourceTree = "<group>"; };
 		6F109D1F1D0BC039001409A8 /* passwordPic_.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = passwordPic_.png; path = ../../passwordPic_.png; sourceTree = "<group>"; };
@@ -3348,6 +3363,9 @@
 				6F3988751D1A3FCC0005AADC /* H5ViewController.m */,
 				6F96134F1D5D5F74006F13CD /* ModuleTableViewController.h */,
 				6F9613501D5D5F74006F13CD /* ModuleTableViewController.m */,
+				18275E1D1D8FBF9500E5BC08 /* SetOfShopViewController.h */,
+				18275E1E1D8FBF9500E5BC08 /* SetOfShopViewController.m */,
+				18275E1F1D8FBF9500E5BC08 /* SetOfShopViewController.xib */,
 				E973385C1D645AC900AEFE5A /* ModuleViewCell.h */,
 				E973385D1D645AC900AEFE5A /* ModuleViewCell.m */,
 				6F9613521D5D68F2006F13CD /* PsesonHeaderView.h */,
@@ -4880,6 +4898,11 @@
 		E97338591D6456F500AEFE5A /* 个人中心图标 */ = {
 			isa = PBXGroup;
 			children = (
+				18F213741D9133430002FCD9 /* 上传图片 (1).png */,
+				18F213721D90E7D50002FCD9 /* 定位图标.png */,
+				18275E261D8FF63700E5BC08 /* 申请开店背景.png */,
+				18275E241D8FE85500E5BC08 /* 未选中.png */,
+				18275E221D8FE78A00E5BC08 /* 协议.png */,
 				E991D5CC1D701D7A00894E0E /* Resource */,
 				E93335A31D6D77D30012204E /* bg2.png */,
 				E933359E1D6D2E8B0012204E /* sjfx824.png */,
@@ -5066,6 +5089,7 @@
 				6F6A437C1D11624500134A4D /* indexhong.png in Resources */,
 				6F6A431E1D11301800134A4D /* Release ViewController.xib in Resources */,
 				6F39885E1D1A2FE00005AADC /* record_tool_normal@2x.png in Resources */,
+				18F213731D90E7D50002FCD9 /* 定位图标.png in Resources */,
 				6F6A40F51D112E1400134A4D /* gchezixun-01.png in Resources */,
 				6F3988641D1A2FE00005AADC /* vedio_nav_btn_back_pre@2x.png in Resources */,
 				6F9613561D5D691E006F13CD /* PersonHeaderView.xib in Resources */,
@@ -5220,6 +5244,7 @@
 				E973387A1D64600400AEFE5A /* tixian_01.png in Resources */,
 				183F15531CDC75E800569EE1 /* 测试4.jpg in Resources */,
 				6F6A413C1D112E1400134A4D /* widget_check_s.png in Resources */,
+				18275E251D8FE85500E5BC08 /* 未选中.png in Resources */,
 				18275E121D8E953400E5BC08 /* 生活服务.png in Resources */,
 				6F3988171D1A2FE00005AADC /* close@3x.png in Resources */,
 				183F15501CDC75E800569EE1 /* 测试1.jpg in Resources */,
@@ -5336,6 +5361,7 @@
 				183AB0481CF1BDDB00FA4489 /* shangcheng14.png in Resources */,
 				6F39877F1D1A2E740005AADC /* 美女主播.jpg in Resources */,
 				6F39882E1D1A2FE00005AADC /* g_tabbar_ic_video_nor@2x.png in Resources */,
+				18275E271D8FF63700E5BC08 /* 申请开店背景.png in Resources */,
 				6F6A42AF1D11301800134A4D /* BuyHouseViewController.xib in Resources */,
 				6F6A410D1D112E1400134A4D /* gerenche-01.png in Resources */,
 				6F39883B1D1A2FE00005AADC /* record_flashlight_disable.png in Resources */,
@@ -5390,6 +5416,7 @@
 				6F3987791D1A2E740005AADC /* s3.jpg in Resources */,
 				183F154C1CDC75E800569EE1 /* shop_black.png in Resources */,
 				E9B4A14A1D6593AA00B137E5 /* baiwancaifu.png in Resources */,
+				18275E231D8FE78B00E5BC08 /* 协议.png in Resources */,
 				182F9C231CFD43A30008E5E8 /* six.png in Resources */,
 				18AE1D7F1CDC9032009FD659 /* s3.jpg in Resources */,
 				6F6A43411D11301800134A4D /* S2R3TableViewCell.xib in Resources */,
@@ -5432,6 +5459,7 @@
 				18275E0C1D8E953400E5BC08 /* 一元夺宝啊.png in Resources */,
 				183AB04B1CF1BDDB00FA4489 /* shangcheng17.png in Resources */,
 				18275E0D1D8E953400E5BC08 /* 万店联盟.png in Resources */,
+				18275E211D8FBF9500E5BC08 /* SetOfShopViewController.xib in Resources */,
 				6F39876F1D1A2E740005AADC /* d3.jpg in Resources */,
 				6F3988191D1A2FE00005AADC /* dot@3x.png in Resources */,
 				6F6A430A1D11301800134A4D /* MoneyViewController.xib in Resources */,
@@ -5485,6 +5513,7 @@
 				182F9C0A1CFD43A30008E5E8 /* bohao.jpg in Resources */,
 				182F9C221CFD43A30008E5E8 /* serven.png in Resources */,
 				6F39876E1D1A2E740005AADC /* d23f.jpg in Resources */,
+				18F213751D9133440002FCD9 /* 上传图片 (1).png in Resources */,
 				18AE1CB11CDC8635009FD659 /* TSLocateView.xib in Resources */,
 				6F3988221D1A2FE00005AADC /* play@2x.png in Resources */,
 				6F6A42A61D11301800134A4D /* AllResumeListViewController.xib in Resources */,
@@ -5902,6 +5931,7 @@
 				6F6A43701D11301800134A4D /* ZhaoPinViewController.m in Sources */,
 				183F14C71CDC757900569EE1 /* AppDelegate.m in Sources */,
 				6F6A42DB1D11301800134A4D /* ErShouGoodsListViewController.m in Sources */,
+				18275E201D8FBF9500E5BC08 /* SetOfShopViewController.m in Sources */,
 				003E37541D878ABA00CF209E /* UIImageView+EMHighlightedWebCache.m in Sources */,
 				6F6A42AC1D11301800134A4D /* BuyErShouHouseViewController.m in Sources */,
 				6F6A42C71D11301800134A4D /* changeButtonView.m in Sources */,

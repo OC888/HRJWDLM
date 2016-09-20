@@ -346,7 +346,7 @@
         case 100:{
 //            跳转万店联盟界面
             UICollectionViewFlowLayout *layout = [[UICollectionViewFlowLayout alloc]init];
-            layout.itemSize = CGSizeMake((WIDTH - 60)/ 2, 84);
+            layout.itemSize = CGSizeMake((WIDTH - 60)/ 2, (WIDTH - 60)/ 6 + 10);
             layout.minimumLineSpacing = 0;
             layout.minimumInteritemSpacing = 20;
         
