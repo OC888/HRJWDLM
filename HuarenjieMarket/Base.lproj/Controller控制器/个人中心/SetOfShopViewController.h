@@ -17,8 +17,10 @@
 @property (weak, nonatomic) IBOutlet UITextField *addressOfShop;
 @property (weak, nonatomic) IBOutlet UITextField *sectionOfShops;
 @property (weak, nonatomic) IBOutlet UIImageView *loacltionImage;
+//@property (weak, nonatomic) IBOutlet UIImageView *IDImage;
 @property (weak, nonatomic) IBOutlet UIImageView *shopImage;
 
 @property (nonatomic,assign) BOOL isAllowed;
+@property (weak, nonatomic) IBOutlet UIView *bacgroundView;
 
 @end

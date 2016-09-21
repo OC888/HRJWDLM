@@ -276,46 +276,53 @@
     NSLog(@"%ld",(long)button.tag);
     switch (button.tag) {
         case 1:{
-
+//          全职工作按钮
             FullTimeViewController *fullVC=[[FullTimeViewController alloc]init];
             fullVC.hidesBottomBarWhenPushed=YES;
             [self.navigationController pushViewController:fullVC animated:YES];
         }
             break;
         case 2:{
+//          兼职工作
             PartTimeViewController *partVC=[[PartTimeViewController alloc]init];
             partVC.hidesBottomBarWhenPushed=YES;
             [self.navigationController pushViewController:partVC animated:YES];
         }
             break;
         case 3:{
+//            二手车
             UsedCarViewController *carVC=[[UsedCarViewController alloc]init];
             carVC.hidesBottomBarWhenPushed=YES;
             [self.navigationController pushViewController:carVC animated:YES];
         }
             break;
         case 4:{
+//            二手物品
             UsedGoodsViewController *goodsVC=[[UsedGoodsViewController alloc]init];
             goodsVC.hidesBottomBarWhenPushed=YES;
             [self.navigationController pushViewController:goodsVC animated:YES];
         }
             break;
         case 5:{
+//            租房
             RentHouseViewController *rentVC=[[RentHouseViewController alloc]init];
             [self.navigationController pushViewController:rentVC animated:YES];
         }
             break;
         case 6:{
+//            买房
             BuyHouseViewController *buyVC=[[BuyHouseViewController alloc]init];
             [self.navigationController pushViewController:buyVC animated:YES];
         }
             break;
         case 7:{
+//            简历库
             AllResumeViewViewController *vc=[[AllResumeViewViewController alloc]init];
             [self.navigationController pushViewController:vc animated:YES];
         }
             break;
         case 8:{
+//            发布
             ResumeAllViewController *domesticVC=[[ResumeAllViewController alloc]init];
             [self.navigationController pushViewController:domesticVC animated:YES];
         }
